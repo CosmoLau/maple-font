@@ -21,7 +21,7 @@
   "line_height": 1.0,
   "feature_freeze": {
     "cv01": "ignore",
-    "cv02": "ignore",
+    "cv02": "enable",
     "cv03": "ignore",
     "cv04": "ignore",
     "cv05": "ignore",
@@ -50,22 +50,22 @@
     "cv63": "ignore",
     "cv64": "ignore",
     "cv65": "ignore",
-    "cv66": "ignore",
+    "cv66": "enable",
     "cv96": "ignore",
     "cv97": "ignore",
     "cv98": "ignore",
     "cv99": "ignore",
     "ss01": "ignore",
     "ss02": "ignore",
-    "ss03": "ignore",
+    "ss03": "enable",
     "ss04": "ignore",
     "ss05": "ignore",
     "ss06": "ignore",
     "ss07": "ignore",
-    "ss08": "ignore",
+    "ss08": "enable",
     "ss09": "ignore",
-    "ss10": "ignore",
-    "ss11": "ignore",
+    "ss10": "enable",
+    "ss11": "enable",
     "zero": "ignore"
   },
   "nerd_font": {
@@ -80,12 +80,12 @@
     "extra_args": []
   },
   "cn": {
-    "enable": false,
+    "enable": true,
     "with_nerd_font": true,
     "fix_meta_table": true,
     "clean_cache": false,
     "narrow": false,
-    "use_hinted": false,
+    "use_hinted": true,
     "use_static_base_font": true,
     "scale_factor": 1.0
   }
